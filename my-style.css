@@ -27,8 +27,11 @@ body{
     font-family: 'Style Script', cursive;
     margin: auto;
     letter-spacing: 2px;
-    min-width: 300px;
+    width: 300px;
     text-align: center;
+    line-height: 80px;
+    position: absolute;
+    bottom: 0px;
 }
 .nav-bar > ul{
     /* background-color: royalblue; */
@@ -36,11 +39,11 @@ body{
     display: flex;
     flex-wrap: wrap;
     float: right;
-    align-items: center;
+    /* align-items: center; */
     color: black;
 }
 .nav-bar ul li{
-    margin-top: 25px;
+    margin-top: auto;
     margin-right: 10px;
     /* background-color: rgba(247, 185, 185, 0.8); */
     border-radius: 5px;
@@ -61,16 +64,62 @@ body{
 li.active , .nav-bar li:hover{
     background-color: rgba(247, 185, 185, 0.8);
 }
+nav .menu-btn i{
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+    float: right;
+    line-height: 80px;
+    font-size: 40px;
+    margin-right: 40px;
+  }
+input[type="checkbox"]{
+    display: none;
+  }
 @media (max-width: 905px){
     .nav-bar > ul{
         margin-right: 0px;
     }
 }
-@media (max-width: 805px){
-    .head .nav-bar .logo{
-        width: 100vw;
-    }
+@media (max-width: 820px){
+
     .nav-bar > ul{
-        visibility: hidden;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        display: inline-block;
+        top: 80px;
+        background: burlywood;
+        left: -120%;
+        transition: left 0.5s ease;
+    }
+    .nav-bar ul li{
+        margin-bottom: 30px;
+        display: block;
+    }
+    .nav-bar ul li a{
+        font-size: 50px;
+    }
+    .nav-bar ul li a:hover, .nav-bar ul li a:active{
+        color: seashell;
+        font-size: 60px;
+    }
+    li.active , .nav-bar li:hover{
+        background-color: burlywood;
+        color: rgb(29, 36, 29);
+    }
+    nav .menu-btn i{
+        display: block;
+    }
+    #click:checked ~ .menu-btn i:before{
+      content: "\f00d";
+    }
+    #click:checked ~ ul{
+      left: 0;
+      transition: all 0.5s ease;
+    }
+    #click:checked ~ ul li a{
+      margin-left: 0px;
     }
 }
