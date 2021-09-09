@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+.skills {
+  /* background-color: cadetblue; */
+  width: 100vw;
+  min-height: 100vh;
+}
+.skills .filler {
+  height: 80px;
+}
+.skills .title {
+  display: block;
+  font-family: "Permanent Marker", cursive;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  height: 100px;
+  padding-top: 30px;
+  text-align: center;
+}
+.skills .contents {
+  margin: 50px;
+  margin-right: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.skills .block {
+  display: flex;
+  /* background-color: thistle; */
+  height: fit-content;
+  padding: 20px;
+}
+
+.skills .block .side {
+  writing-mode: vertical-rl;
+  height: initial;
+  /* min-height: 70%; */
+  font-size: 50px;
+  text-align: center;
+  padding: 30px;
+  color: darkorchid;
+  font-family: "Permanent Marker", cursive;
+}
+.skills .block .side hr {
+  margin-left: 30px;
+  height: 100%;
+}
+
+.skills .contents .container {
+  background-color: rgb(29, 36, 29);
+  /* box-shadow: 10px 10px 5px rgb(0, 0, 0); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0);
+  height: 150px;
+  width: 200px;
+  max-width: 80vw;
+  margin: 20px 20px;
+  border-radius: 10px;
+}
