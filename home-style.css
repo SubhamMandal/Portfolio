@@ -67,6 +67,16 @@
         height: 150px;
         object-fit: contain;
         border-radius: 50%;    
-        
+    }
+    .home .home-content .text-3 span{
+        /* display: block; */
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        margin-left: -50px;
+        margin-right: auto;
+        /* background-color: blue; */
+        /* margin: 0px; */
+        /* min-width: 20px; */
     }
   }
