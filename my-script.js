@@ -31,11 +31,11 @@ function typeWriter() {
         wait(1000);
         j++;
         i = 0;
-        document.getElementById("typing").innerHTML = ".";
+        document.getElementById("typing").innerHTML = "";
         setTimeout(typeWriter, speed);
     } else {
         wait(1000);
-        document.getElementById("typing").innerHTML = ".";
+        document.getElementById("typing").innerHTML = "";
         j = 0;
         i = 0;
         setTimeout(typeWriter, speed);
