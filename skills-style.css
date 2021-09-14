@@ -77,4 +77,7 @@
   .skills .block .side hr{
     margin-left: 0px;
   }
+  .skills .contents{
+    margin-right: auto;
+  }
 }

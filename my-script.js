@@ -20,7 +20,7 @@ function wait(ms) {
     }
 }
 var i = 0, j = 0;
-var txt = ['', 'software engineer!','Competitive coder','Web Developer']; /* The text */
+var txt = ['', 'software engineer','Competitive coder','Web Developer']; /* The text */
 var speed = 50; /* The speed/duration of the effect in milliseconds */
 function typeWriter() {
     if (i < txt[j].length) {

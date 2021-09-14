@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 .home{
     display: flex;
@@ -9,6 +9,8 @@
 .home .max-width{
     width: 100%;
     display: flex;
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 2px;
     /* background-color: blueviolet; */
   }
   .home .max-width .image {
@@ -36,6 +38,25 @@
   .home .home-content .text-3 span{
       color: crimson;
       font-weight: 500;
+  }
+  .home .home-content .resume{
+      border: solid rgb(223, 180, 189) 3px;
+      width: fit-content;
+      color: whitesmoke;
+      border-radius: 5px;
+      background-color: crimson;
+      font-size: 28px;
+      padding: 10px;
+      transition: all 0.5s ease;
+      margin-top: 20px;
+  }
+  .home .home-content .resume:hover{
+      background: none;
+      border: solid crimson 3px;
+      transition: all 0.5s ease;
+  }
+  .home .home-content .text-3 .cursor{
+      display: inline-block;
   }
 
   @media (max-width: 820px){
@@ -79,5 +100,14 @@
         /* background-color: blue; */
         /* margin: 0px; */
         /* min-width: 20px; */
+    }
+    .home .home-content .text-3 .cursor{
+        display: none;
+    }
+    .home .home-content a{
+        position: absolute;
+        z-index: -1;
+        bottom: 20px;
+        right: 20px;
     }
   }
