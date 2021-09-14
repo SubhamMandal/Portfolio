@@ -108,6 +108,7 @@ input[type="checkbox"]{
     .nav-bar ul li a:hover, .nav-bar ul li a:active{
         color: seashell;
         font-size: 60px;
+        transition: all 0.5s ease;
     }
     li.active , .nav-bar li:hover{
         background-color: burlywood;
