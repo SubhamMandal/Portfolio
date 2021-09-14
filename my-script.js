@@ -1,13 +1,20 @@
 document.querySelectorAll('.nav-button').forEach(item => {
     item.addEventListener('click', () => {
-        console.log("worked");
         document.getElementById("click").checked = false;
+        document.getElementById("resume").classList.remove("hide");
     })
 });
 
 // document.getElementById('skills').addEventListener('click',()=>{
 //     window.scrollTo(0, 100);
 // })
+
+document.getElementById("click").addEventListener('click',()=>{
+    if(document.getElementById("click").checked == true){
+        document.getElementById("resume").classList.add("hide");
+    }
+    else document.getElementById("resume").classList.remove("hide");
+})
 
 // Typing Effect 
 
