@@ -87,6 +87,7 @@ input[type="checkbox"]{
     }
 }
 @media (max-width: 820px){
+    
 
     .nav-bar > ul{
         position: fixed;
