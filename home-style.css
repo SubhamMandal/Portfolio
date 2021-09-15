@@ -16,6 +16,9 @@
   .home .max-width .image {
       display: none;
   }
+  .home .home-content hr{
+      display: none;
+  }
   .home-content{
       width: 100%;
       margin: auto 50px;
@@ -66,7 +69,7 @@
         height: auto;
     }
     .home-content{
-        margin-top:  -150px;
+        margin-top:  -80px;
     }
     .home .home-content .text-1{
         font-size: 25px;
@@ -75,11 +78,17 @@
     }
     .home .home-content .text-2{
         font-size: 30px;
-        margin: 10px auto;
+        /* margin: 10px auto; */
         width: 80vw;
+    }
+    .home .home-content hr{
+        display: block;
+        margin-top: 40px;
+        margin-bottom: 23px;
     }
     .home .home-content .line{
         text-align: center;
+        margin: -8px;
     }
     .home .max-width .home-content .image{
         width: 100%;
@@ -88,17 +97,22 @@
         margin-bottom: 20px;
     }
     .home .max-width .home-content .image .mypic{
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         object-fit: contain;
         border-radius: 50%;    
     }
+    .home .home-content .text-3{
+        /* margin-top: 0px; */
+        font-size: 25px;
+    }
     .home .home-content .text-3 span{
         position: absolute;
+        font-size: 35px;
         z-index: -2;
         width: 100%;
         text-align: center;
-        margin-left: -50px;
+        margin: -8px 0px 0px -50px;
     }
     .home .home-content .text-3 .cursor{
         display: none;
