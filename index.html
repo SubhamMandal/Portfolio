@@ -40,7 +40,7 @@
 
     <section class="home" id="home">
       <div class="max-width">
-        <div class="home-content" >
+        <div class="home-content">
           <div class="image">
             <img
               class="mypic"
@@ -48,13 +48,15 @@
               alt="Image file not found"
             />
           </div>
-          <hr>
+          <hr />
           <div class="text-1 line">Hello, my name is</div>
           <div class="text-2 line">Subham Kumar Mandal</div>
           <div class="text-3 line">
-            And I am a <span id="typing" class="typing">Software Engineer</span><div class="cursor">|</div>
+            And I am a <span id="typing" class="typing">Software Engineer</span>
+            <div class="cursor">|</div>
           </div>
-          <a id="resume"
+          <a
+            id="resume"
             href="https://drive.google.com/uc?export=download&id=1X7mVAMjG5Y_uxevxa5L_kAjfXRvBnYew"
             ><div class="resume">Download Resume</div></a
           >
@@ -79,6 +81,34 @@
               Engineer, enthusist about technology with a creative mindset who
               is eager to learn and develop amazing applications.
             </p>
+            <div class="extra-details">
+              <div class="tab">
+                <button class="tablinks" id="defaultOpen" onclick="openCity(event, 'London')">
+                  London
+                </button>
+                <button class="tablinks" onclick="openCity(event, 'Paris')">
+                  Paris
+                </button>
+                <button class="tablinks" onclick="openCity(event, 'Tokyo')">
+                  Tokyo
+                </button>
+              </div>
+
+              <div id="London" class="tabcontent">
+                <h3>London</h3>
+                <p>London is the capital city of England.</p>
+              </div>
+
+              <div id="Paris" class="tabcontent">
+                <h3>Paris</h3>
+                <p>Paris is the capital of France.</p>
+              </div>
+
+              <div id="Tokyo" class="tabcontent">
+                <h3>Tokyo</h3>
+                <p>Tokyo is the capital of Japan.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -128,7 +158,7 @@
     <section class="projects" id="projects">
       <div class="title">My Projects</div>
       <div class="project-content">
-        <div class="project-card "></div>
+        <div class="project-card"></div>
         <div class="project-card alter"></div>
         <div class="project-card"></div>
       </div>
