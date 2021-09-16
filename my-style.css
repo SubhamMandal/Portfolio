@@ -28,7 +28,8 @@ body{
 .head .nav-bar .logo{
     font-size: 60px;
     float: left;
-    font-family: 'Style Script', cursive;
+    /* font-family: 'Style Script', cursive; */
+    font-family: 'Patrick Hand', cursive;
     margin: auto;
     letter-spacing: 2px;
     width: 300px;
@@ -57,7 +58,8 @@ body{
     text-align: center;
 }
 .nav-bar ul li a{
-    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Kanit', sans-serif; */
+    font-family: 'Patrick Hand', cursive;
     font-weight: bold;
     font-size: 20px;
     color: black;
@@ -88,7 +90,9 @@ input[type="checkbox"]{
 }
 @media (max-width: 820px){
     
-
+    .head .nav-bar .logo{
+        font-size: 40px;
+    }
     .nav-bar > ul{
         position: fixed;
         width: 100%;
@@ -102,17 +106,19 @@ input[type="checkbox"]{
     .nav-bar ul li{
         margin-bottom: 30px;
         display: block;
+        /* border: solid 5px; */
+        border-bottom: solid 2px rgb(75, 75, 75);
     }
     .nav-bar ul li a{
         font-size: 50px;
     }
-    .nav-bar ul li a:hover, .nav-bar ul li a:active{
+    .nav-bar ul li a:hover{
         color: seashell;
         font-size: 60px;
         transition: all 0.5s ease;
     }
     li.active , .nav-bar li:hover{
-        background-color: burlywood;
+        background: none;
         color: rgb(29, 36, 29);
     }
     nav .menu-btn i{

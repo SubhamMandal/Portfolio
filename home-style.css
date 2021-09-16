@@ -43,7 +43,7 @@
       font-weight: 500;
   }
   .home .home-content .resume{
-      position: absolute;
+      /* position: absolute; */
       border: solid rgb(223, 180, 189) 3px;
       width: fit-content;
       color: whitesmoke;
@@ -125,7 +125,7 @@
         position: absolute;
         font-size: 17px;
         padding: 5px;
-        z-index: 0;
+        /* z-index: -1; */
         bottom: 20px;
         right: 20px;
     }

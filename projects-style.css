@@ -18,8 +18,13 @@
 }
 .projects .project-content .project-card{
     width: 80vw;
-    min-height: 20vw;
-    background-color: rgb(90, 90, 90);
+    min-height: 20vh;
+    background-image: linear-gradient(to right, rgba(90, 90, 90,0.9), rgba(90, 90, 90,0.0));
     border-radius: 5px;
     margin: 30px 30px 0px 30px;
+}
+.projects .project-content .alter{
+    background-image: linear-gradient(to right, rgba(90, 90, 90,0.0), rgba(90, 90, 90,0.9));
+    justify-self: end;
+    align-self: flex-end;
 }
