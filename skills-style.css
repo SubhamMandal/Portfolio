@@ -70,17 +70,20 @@
 }
 
 @media (max-width: 820px) {
+  .skills .contents{
+    justify-content: space-evenly;
+    margin: auto;
+  }
   .skills .block .side {
     /* padding: 30px 0px; */
     display: none;
   }
-  .skills .block .side hr {
-    margin-left: 0px;
-  }
+  
   .skills .contents {
     margin-right: auto;
   }
   .skills .contents .container {
+    margin: 20px 10px;
     height: 112.5px;
     width: 150px;
   }
