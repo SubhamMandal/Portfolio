@@ -9,7 +9,8 @@
     /* background-color: teal; */
     font-family: 'Luckiest Guy', cursive;
     padding-top: 120px;
-    color: whitesmoke;
+    /* color: whitesmoke; */
+    color: var(--text-color);
     /* margin-top: 100px; */
 }
 .projects .project-content{

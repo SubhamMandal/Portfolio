@@ -20,7 +20,8 @@
     font-size: 40px;
     padding-top: 100px;
     font-family: 'Luckiest Guy', cursive;
-    color: blanchedalmond;
+    /* color: blanchedalmond; */
+    color: var(--text-color);
 }
 .about .max-width .title .lower{
     font-size: 20px;
@@ -50,7 +51,8 @@
 .about-content .details{
     font-size: 30px;
     font-family: 'Lobster', cursive;
-    color: rgb(255, 81, 0);
+    /* color: rgb(255, 81, 0); */
+    color: var(--text-color);
     max-width: 700px;
     /* min-height: 350px;
     height: 100%;
@@ -60,7 +62,8 @@
 }
 .about-content .details p{
     font-family: 'Allison', cursive;
-    color: blanchedalmond;
+    /* color: blanchedalmond; */
+    color: var(--text-color);
     font-size: 40px;
     font-weight: 500;
 }

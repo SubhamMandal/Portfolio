@@ -3,7 +3,8 @@
 .home{
     display: flex;
     min-height: 100vh;
-    color: cornsilk;
+    /* color: cornsilk; */
+    color: var(--text-color);
     align-items: center;
 }
 .home .max-width{
@@ -33,6 +34,7 @@
       font-size: 3.5em;
       font-weight: 600;
       margin-left: -3px;
+      text-shadow: 2px 2px 2px rgb(17, 17, 17);
   }
   .home .home-content .text-3{
       font-size: 40px;
@@ -41,12 +43,14 @@
   .home .home-content .text-3 span{
       color: crimson;
       font-weight: 500;
+      text-shadow: 2px 2px 8px #cf1010be;
   }
   .home .home-content .resume{
       /* position: absolute; */
       border: solid rgb(223, 180, 189) 3px;
       width: fit-content;
-      color: whitesmoke;
+      /* color: whitesmoke; */
+      color: var(--text-color);
       border-radius: 5px;
       background-color: crimson;
       font-size: 28px;
@@ -58,6 +62,7 @@
       background: none;
       border: solid crimson 3px;
       transition: all 0.5s ease;
+      box-shadow: 8px 8px 8px #FF0000;
   }
   .home .home-content .text-3 .cursor{
       display: inline-block;

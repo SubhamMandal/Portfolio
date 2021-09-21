@@ -12,7 +12,8 @@
   display: block;
   font-family: "Permanent Marker", cursive;
   font-size: 50px;
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
+  color: var(--text-color);
   height: 100px;
   padding-top: 30px;
   text-align: center;
@@ -38,7 +39,8 @@
   font-size: 50px;
   text-align: center;
   padding: 30px;
-  color: darkorchid;
+  /* color: darkorchid; */
+  color: var(--text-color);
   font-family: "Permanent Marker", cursive;
 }
 .skills .block .side hr {
@@ -47,9 +49,10 @@
 }
 
 .skills .contents .container {
-  background-color: rgb(29, 36, 29);
+  /* background-color: rgb(29, 36, 29); */
+  background-color: var(--bg-color);
   /* box-shadow: 10px 10px 5px rgb(0, 0, 0); */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0);
+  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgb(0, 0, 0);
   height: 150px;
   width: 200px;
   max-width: 80vw;

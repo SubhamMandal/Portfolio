@@ -9,8 +9,8 @@ document.querySelectorAll('.nav-button').forEach(item => {
 //     window.scrollTo(0, 100);
 // })
 
-document.getElementById("click").addEventListener('click',()=>{
-    if(document.getElementById("click").checked == true){
+document.getElementById("click").addEventListener('click', () => {
+    if (document.getElementById("click").checked == true) {
         document.getElementById("resume").classList.add("hide");
     }
     else document.getElementById("resume").classList.remove("hide");
@@ -27,7 +27,7 @@ function wait(ms) {
     }
 }
 var i = 0, j = 0;
-var txt = ['', 'software engineer','Competitive coder','Web Developer']; /* The text */
+var txt = ['', 'software engineer', 'Competitive coder', 'Web Developer']; /* The text */
 var speed = 50; /* The speed/duration of the effect in milliseconds */
 function typeWriter() {
     if (i < txt[j].length) {
@@ -56,14 +56,28 @@ function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
+        tabcontent[i].style.display = "none";
     }
     tablinks = document.getElementsByClassName("tablinks");
     for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].className = tablinks[i].className.replace(" active", "");
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
-  }
+}
 //   Show a tab by default
 document.getElementById("defaultOpen").click();
+
+
+// Dark mode button 
+const darkButton = document.getElementById("dark-mode-icon");
+
+darkButton.onclick = () => {
+    document.body.classList.toggle('dark-mode');
+    darkButton.classList.toggle('dark-icon');
+    darkButton.classList.toggle('light-icon');
+}
+
+window.onload = ()=>{
+    darkButton.click();     // open dark mode by default
+};
