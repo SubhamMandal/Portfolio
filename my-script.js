@@ -1,3 +1,6 @@
+window.onload = document.querySelector('.loader').style.display = "none";
+
+
 document.querySelectorAll('.nav-button').forEach(item => {
     item.addEventListener('click', () => {
         document.getElementById("click").checked = false;

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&family=Style+Script&display=swap');
 .root{
     --text-color : black;
-    --bg-color: white;
+    --bg-color: rgb(224, 213, 213);
 }
 .dark-mode{
     --text-color : cornsilk;
@@ -18,6 +18,14 @@ html {
     padding: 0%;
     list-style: none;
     box-sizing: border-box;
+}
+.loader{
+    background: black url(Images/loader.gif) no-repeat center;
+    background-size: 20%;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
 }
 body{
     /* background-color:  rgb(29, 36, 29); */
