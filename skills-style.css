@@ -18,6 +18,8 @@
   padding-top: 30px;
   text-align: center;
 }
+
+/* // Add this to turn to flex  */
 /* .skills .contents {
   margin: 50px;
   margin-right: 180px;
@@ -25,6 +27,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
 } */
+/* for grid view  */
 .skills .contents {
   width: 75%;
   margin: 50px;
