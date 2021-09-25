@@ -14,7 +14,7 @@ document.getElementById("click").addEventListener('click',()=>{
         document.getElementById("resume").classList.add("hide");
     }
     else document.getElementById("resume").classList.remove("hide");
-})
+});
 
 // Typing Effect 
 
@@ -48,4 +48,4 @@ function typeWriter() {
         setTimeout(typeWriter, speed);
     }
 }
-setTimeout(typeWriter, 0);
+// setTimeout(typeWriter, 1000);

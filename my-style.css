@@ -83,12 +83,12 @@ nav .menu-btn i{
 input[type="checkbox"]{
     display: none;
   }
-@media (max-width: 905px){
+/* @media (max-width: 905px){
     .nav-bar > ul{
         margin-right: 0px;
     }
-}
-@media (max-width: 820px){
+} */
+/* @media (max-width: 820px){
     
     .head .nav-bar .logo{
         font-size: 40px;
@@ -106,7 +106,6 @@ input[type="checkbox"]{
     .nav-bar ul li{
         margin-bottom: 30px;
         display: block;
-        /* border: solid 5px; */
         border-bottom: solid 2px rgb(75, 75, 75);
     }
     .nav-bar ul li a{
@@ -134,4 +133,4 @@ input[type="checkbox"]{
     #click:checked ~ ul li a{
       margin-left: 0px;
     }
-}
+} */

@@ -46,19 +46,18 @@
   height: 100%;
 }
 
-.skills .contents .container {
+/* .skills .contents .container {
   background-color: rgb(29, 36, 29);
-  /* box-shadow: 10px 10px 5px rgb(0, 0, 0); */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0);
   height: 150px;
   width: 200px;
   max-width: 80vw;
   margin: 20px 20px;
   border-radius: 10px;
-}
-.skills .contents .container:hover {
+} */
+/* .skills .contents .container:hover {
   box-shadow: 10px 10px 5px rgb(0, 0, 0);
-}
+} */
 
 .skills .contents .container img {
   display: block;
