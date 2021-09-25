@@ -18,11 +18,21 @@
   padding-top: 30px;
   text-align: center;
 }
-.skills .contents {
+/* .skills .contents {
   margin: 50px;
   margin-right: 180px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+} */
+.skills .contents {
+  width: 75%;
+  margin: 50px;
+  margin-right: 180px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+  grid-gap: 20px 90px ;
+  /* flex-wrap: wrap; */
   justify-content: space-around;
 }
 .skills .block {
@@ -76,6 +86,7 @@
   .skills .contents{
     justify-content: space-evenly;
     margin: auto;
+    grid-gap: 20px 40px ;
   }
   .skills .block .side {
     /* padding: 30px 0px; */
