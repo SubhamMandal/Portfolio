@@ -44,7 +44,7 @@
 .about-content .photo img{
     height: 240px;
     border-radius: 10px;
-    border: solid black 2px;
+    /* border: solid black 2px; */
     margin: 80px 60px 0px 0px; 
 }
 

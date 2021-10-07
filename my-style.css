@@ -50,6 +50,7 @@ body{
 .head{
     display: flex;
     position: fixed;
+    z-index: 2;
     background: rgba(253, 14, 14, 0.7);
     flex-wrap: wrap;
     justify-content: space-between;
@@ -94,7 +95,7 @@ body{
     font-family: 'Patrick Hand', cursive;
     font-weight: bold;
     font-size: 20px;
-    color: black;
+    color: var(--text-color);
 }
 .nav-bar{
     width: 100%;
@@ -103,7 +104,7 @@ li.active , .nav-bar li:hover{
     background-color: rgba(247, 185, 185, 0.8);
 }
 nav .menu-btn i{
-    color: #fff;
+    color: var(--text-color);
     font-size: 22px;
     cursor: pointer;
     display: none;
@@ -115,6 +116,10 @@ nav .menu-btn i{
 input[type="checkbox"]{
     display: none;
   }
+
+.hide{
+    color: rgba(0,0,0,0.0);
+}
 @media (max-width: 905px){
     .nav-bar > ul{
         margin-right: 0px;
@@ -131,21 +136,23 @@ input[type="checkbox"]{
         height: 100vh;
         display: inline-block;
         top: 80px;
-        background: burlywood;
+        background: rgba(0,0,0,0.9);
         left: -120%;
         transition: left 0.5s ease;
     }
     .nav-bar ul li{
         margin-bottom: 30px;
         display: block;
-        /* border: solid 5px; */
-        border-bottom: solid 2px rgb(75, 75, 75);
+        /* border: solid 0px; */
+        /* border-radius: 0;
+        border-bottom: solid 2px var(--text-color); */
     }
     .nav-bar ul li a{
         font-size: 50px;
+        color: rgba(255,255,255,0.7);
     }
     .nav-bar ul li a:hover{
-        color: seashell;
+        color: rgba(238, 91, 91, 0.7);
         font-size: 60px;
         transition: all 0.5s ease;
     }

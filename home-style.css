@@ -6,6 +6,8 @@
     /* color: cornsilk; */
     color: var(--text-color);
     align-items: center;
+    /* background-color: burlywood;
+    border-bottom-right-radius: 100%; */
 }
 .home .max-width{
     width: 100%;
@@ -47,7 +49,7 @@
   }
   .home .home-content .resume{
       /* position: absolute; */
-      border: solid rgb(223, 180, 189) 3px;
+      border: solid var(--text-color) 3px;
       width: fit-content;
       /* color: whitesmoke; */
       color: var(--text-color);
@@ -123,9 +125,9 @@
     .home .home-content .text-3 .cursor{
         display: none;
     }
-    .hide{
+    /* .hide{
         display: none;
-    }
+    } */
     .home .home-content .resume{
         position: absolute;
         font-size: 17px;
