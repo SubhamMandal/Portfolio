@@ -91,21 +91,38 @@ darkButton.onclick = () => {
 
 // ======================= project display slider =================
 
-let projectOne = document.querySelector('#project1-img');
-let projectTwo = document.querySelector('#project2-img');
-let projectThree = document.querySelector('#project3-img');
-let frame = document.querySelector('#frame').offsetWidth;
+// let projectOne = document.querySelector('#project1-img');
+// let projectTwo = document.querySelector('#project2-img');
+// let projectThree = document.querySelector('#project3-img');
+// let frame = document.querySelector('#frame').offsetWidth;
+// let index = 0;
+// let increment = 1;
+
+// function slide(card) {
+//     index = index + increment;
+//     if (index >= 2) increment = -1;
+//     if (index <= 0) increment = 1;
+//     card.style.transitionDuration = "0.5s";
+//     card.style.transform = `translateX(-${(frame + 40) * index}px)`;
+// }
+
+// setInterval(() => { slide(projectOne) }, 4000);
+// setTimeout(() => { setInterval(() => { slide(projectTwo) }, 4000) }, 2000);
+// setInterval(() => { slide(projectThree) }, 4000);
+
+let projectOne = document.querySelector("#project1-img");
+let projectTwo = document.querySelector("#project2-img");
+let projectThree = document.querySelector("#project3-img");
+let frame = document.querySelector("#project-display-container").offsetWidth;
 let index = 0;
 let increment = 1;
-
-function slide(card){
+function slide(card) {
     index = index + increment;
-    if(index>=2) increment = -1;
-    if(index<=0) increment = 1;
+    if (index >= 2) increment = -1;
+    if (index <= 0) increment = 1;
     card.style.transitionDuration = "0.5s";
-    card.style.transform = `translateX(-${(frame + 40) * index}px)`;
+    card.style.transform = `translateX(-${(frame - 4) * index}px)`;
 }
-
-setInterval(()=>{slide(projectOne)},4000);
-setTimeout(()=>{setInterval(()=>{slide(projectTwo)},4000)},2000);
-setInterval(()=>{slide(projectThree)},4000);
+setInterval(() => { slide(projectOne) }, 4000);
+setInterval(() => { slide(projectTwo) }, 4000);
+setInterval(() => { slide(projectThree) }, 4000);
