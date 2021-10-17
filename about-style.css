@@ -2,14 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
-*{
-    text-decoration: none;
-    margin: 0%;
-    padding: 0%;
-    list-style: none;
-    box-sizing: border-box;
-}
-
 .about{
     /* background-color: rgb(241, 194, 133); */
     min-height: 100vh;

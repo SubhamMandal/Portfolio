@@ -107,5 +107,5 @@ function slide(card){
 }
 
 setInterval(()=>{slide(projectOne)},4000);
-setInterval(()=>{slide(projectTwo)},4000);
+setTimeout(()=>{setInterval(()=>{slide(projectTwo)},4000)},2000);
 setInterval(()=>{slide(projectThree)},4000);
