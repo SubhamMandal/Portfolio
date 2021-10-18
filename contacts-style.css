@@ -1,0 +1,14 @@
+#contacts .footer{
+    width: 100vw;
+    /* height: 100px; */
+    fill: rgb(93, 229, 247);
+    fill-opacity: 0.8;
+}
+
+#contacts .contacts{
+    background-color: rgb(93, 229, 247);
+    opacity: 0.8;
+    width: 100vw;
+    min-height: 300px;
+    margin-top: -4px;
+}

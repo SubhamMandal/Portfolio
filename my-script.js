@@ -117,6 +117,7 @@ let frame = document.querySelector("#project-display-container").offsetWidth;
 let index = 0;
 let increment = 1;
 function slide(card) {
+    frame = document.querySelector("#project-display-container").offsetWidth;
     index = index + increment;
     if (index >= 2) increment = -1;
     if (index <= 0) increment = 1;
