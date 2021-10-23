@@ -122,7 +122,7 @@ function slide(card) {
     if (index >= 2) increment = -1;
     if (index <= 0) increment = 1;
     card.style.transitionDuration = "0.5s";
-    card.style.transform = `translateX(-${(frame - 4) * index}px)`;
+    card.style.transform = `translateX(-${(frame - 0) * index}px)`;
 }
 setInterval(() => { slide(projectOne) }, 4000);
 setInterval(() => { slide(projectTwo) }, 4000);

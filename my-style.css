@@ -5,6 +5,8 @@
     --bg-color: rgb(252, 244, 244);
     --nav-color: rgb(230, 230, 230);
     --nav-shadow: #9b9a9a;
+    --primary-color: rgb(0, 0, 255);
+    --footer-color: rgb(146, 146, 255);
 }
 .dark-mode{
     --text-color : cornsilk;
@@ -183,5 +185,10 @@ input[type="checkbox"]{
     }
     #click:checked ~ ul li a{
       margin-left: 0px;
+    }
+}
+@media (max-width: 620px){
+    nav .menu-btn i{
+        font-size: 25px;
     }
 }

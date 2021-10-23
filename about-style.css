@@ -27,6 +27,7 @@
 }
 
 .about-content .photo{
+    position: relative;
     /* min-height: 350px;
     height: 100%;
     width: 30%; */
@@ -38,6 +39,17 @@
     border-radius: 10px;
     /* border: solid black 2px; */
     margin: 80px 60px 0px 0px; 
+}
+
+.about-content .outline{
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    border: solid 15px var(--primary-color);
+    border-radius: 20px;
+    bottom: -0px;
+    left: -50px;
+    z-index: -1;
 }
 
 .about-content .details{
@@ -63,7 +75,7 @@
 .about-content .extra-details{
     margin-top: 30px;
 }
-/* Tabs effect css */
+/*========================== Tabs effect css ====================*/
 
 /* Style the tab */
 .tab {
@@ -125,6 +137,9 @@
     }
     .about-content .photo{
         text-align: center;
+    }
+    .about-content .outline{
+        display: none;
     }
     .about-content .details{
         text-align: center;
