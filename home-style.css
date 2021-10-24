@@ -41,14 +41,15 @@
   }
   .home .home-content .text-3{
       font-size: 40px;
-      margin: 5px 0;
+      margin: 5px 0 20px 0;
   }
   .home .home-content .text-3 span{
       color: crimson;
       font-weight: 500;
       text-shadow: 2px 2px 8px #cf1010be;
   }
-  .home .home-content .resume{
+  
+  .home .home-content #resume{
       /* position: absolute; */
       border: solid var(--text-color) 3px;
       width: fit-content;
@@ -59,9 +60,8 @@
       font-size: 28px;
       padding: 10px;
       transition: all 0.5s ease;
-      margin-top: 20px;
   }
-  .home .home-content .resume:hover{
+  .home .home-content #resume:hover{
       background: none;
       border: solid crimson 3px;
       transition: all 0.5s ease;

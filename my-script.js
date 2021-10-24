@@ -24,19 +24,19 @@ function wait(ms) {
 var i = 0, j = 0;
 var txt = [ 'software engineer', 'Competitive coder', 'Web Developer']; 
 var speed = 50; 
-function typeWriter() {
+async function typeWriter() {
     if (i < txt[j].length) {
         document.getElementById("typing").innerHTML += txt[j].charAt(i);
         i++;
         setTimeout(typeWriter, speed);
     } else if (j < txt.length - 1) {
-        wait(3000);
+        await wait(3000);
         j++;
         i = 0;
         document.getElementById("typing").innerHTML = "";
         setTimeout(typeWriter, speed);
     } else {
-        wait(5000);
+        await wait(5000);
         document.getElementById("typing").innerHTML = "";
         j = 0;
         i = 0;
