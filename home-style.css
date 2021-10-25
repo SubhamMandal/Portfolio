@@ -137,7 +137,7 @@
     /* .hide{
         display: none;
     } */
-    .home .home-content .resume{
+    .home .home-content #resume{
         position: absolute;
         font-size: 17px;
         padding: 5px;
