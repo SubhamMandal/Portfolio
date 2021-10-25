@@ -95,17 +95,28 @@
     box-shadow: 0px 0px 5px black;
 }
 
+#contacts #send-btn:hover{
+    transition: 0.7s;
+    background: rgb(124, 255, 17);
+    box-shadow: 0px 0px 10px black;
+}
+
 @media (max-width: 820px){
     #contacts .content{
         flex-direction: column;
     }
     #contacts .contact-form{
-        width: 80vw;
+        width: 90vw;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 70px;
     }
     #contacts .contact-form .group{
         width: 100%;
     }
     #contacts .contacts{
-        height: 70vh;
+        height: 80vh;
     }
 }
